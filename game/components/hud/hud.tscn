@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=3 uid="uid://dajo2w1y3egqp"]
+
+[ext_resource type="Script" path="res://components/hud/HUD_ABDisplay.cs" id="1_2ig7m"]
+[ext_resource type="Script" path="res://components/hud/HUD_ScoreLabel.cs" id="2_dcj3h"]
+
+[node name="HUD" type="Control"]
+layout_mode = 3
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="CanvasGroup" type="CanvasGroup" parent="."]
+
+[node name="stats" type="CanvasLayer" parent="CanvasGroup"]
+
+[node name="ScoreBg" type="ColorRect" parent="CanvasGroup/stats"]
+offset_right = 350.0
+offset_bottom = 29.0
+color = Color(0.203922, 0.203922, 0.203922, 0.372549)
+
+[node name="AbBg" type="ColorRect" parent="CanvasGroup/stats"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -117.0
+offset_bottom = 29.0
+grow_horizontal = 0
+color = Color(0.203922, 0.203922, 0.203922, 0.372549)
+
+[node name="ABTestDisplay" type="Label" parent="CanvasGroup/stats"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -75.0
+offset_bottom = 26.0
+grow_horizontal = 0
+text = "Loading...
+"
+script = ExtResource("1_2ig7m")
+
+[node name="ScoreLabel" type="Label" parent="CanvasGroup/stats"]
+offset_left = 8.0
+offset_right = 91.0
+offset_bottom = 29.0
+size_flags_horizontal = 4
+theme_override_colors/font_color = Color(0.988235, 0.996078, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 18
+text = "Loading..."
+uppercase = true
+script = ExtResource("2_dcj3h")
+
+[node name="message" type="Label" parent="CanvasGroup/stats"]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -112.0
+offset_top = -24.5
+offset_right = 112.0
+offset_bottom = 24.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 2
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 33
+text = "game status"
+horizontal_alignment = 1
+uppercase = true

@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://bsyrunrqphk6a"]
+
+[ext_resource type="Texture2D" uid="uid://bnkftlrvfh8vl" path="res://assets/godot.png" id="1_qvq3m"]
+[ext_resource type="Script" path="res://actors/Enemy.cs" id="1_ruku6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1tsb8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_qvq3m")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ac8t4"]
+size = Vector2(15, 15)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kuvqv"]
+size = Vector2(20, 18.5)
+
+[node name="Enemy" type="CharacterBody2D"]
+script = ExtResource("1_ruku6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.04, 0.0366667)
+sprite_frames = SubResource("SpriteFrames_1tsb8")
+
+[node name="CaptureLabel" type="Label" parent="."]
+visible = false
+offset_left = -36.0
+offset_top = -37.0
+offset_right = 36.0
+offset_bottom = -11.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 1.5)
+shape = SubResource("RectangleShape2D_ac8t4")
+
+[node name="Timeout" type="Timer" parent="."]
+one_shot = true
+
+[node name="DetectionArea" type="Area2D" parent="."]
+collision_layer = 1024
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DetectionArea"]
+position = Vector2(0, 0.25)
+shape = SubResource("RectangleShape2D_kuvqv")

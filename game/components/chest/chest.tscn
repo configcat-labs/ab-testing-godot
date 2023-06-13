@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=3 uid="uid://x530qmgxc72b"]
+
+[ext_resource type="Texture2D" uid="uid://br0ml0dedpgbq" path="res://assets/chest.png" id="1_ii7a7"]
+[ext_resource type="Script" path="res://components/chest/Chest.cs" id="1_yfp1t"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b4il8"]
+
+[node name="Chest" type="Area2D"]
+light_mask = 16
+y_sort_enabled = true
+collision_layer = 16
+script = ExtResource("1_yfp1t")
+
+[node name="InfoLabel" type="Label" parent="."]
+visible = false
+offset_left = -20.0
+offset_top = -41.0
+offset_right = 64.0
+offset_bottom = -12.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 1
+theme_override_constants/shadow_offset_y = 1
+theme_override_constants/outline_size = 1
+theme_override_constants/shadow_outline_size = 1
+theme_override_font_sizes/font_size = 14
+text = "info"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_b4il8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(-0.5, -0.500001)
+scale = Vector2(0.24, 0.255)
+texture = ExtResource("1_ii7a7")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0

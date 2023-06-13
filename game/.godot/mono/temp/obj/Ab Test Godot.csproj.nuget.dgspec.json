@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/Ab Test Godot.csproj": {}
+  },
+  "projects": {
+    "/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/Ab Test Godot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/Ab Test Godot.csproj",
+        "projectName": "Ab Test Godot",
+        "projectPath": "/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/Ab Test Godot.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/home/emil/.local/share/godot/mono/GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config",
+          "/home/emil/.nuget/NuGet/config/Godot.Offline.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ConfigCat.Client": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Godot.SourceGenerators": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "GodotSharp": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "GodotSharpEditor": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.15, 6.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://components/exitPortal/ExitPortal.cs" id="1_6nqun"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cfq4y"]
+size = Vector2(30, 10)
+
+[node name="ExitPortal" type="Area2D"]
+collision_layer = 128
+script = ExtResource("1_6nqun")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 1)
+shape = SubResource("RectangleShape2D_cfq4y")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -15.0
+offset_top = -12.0
+offset_right = 18.0
+offset_bottom = 14.0
+text = "EXIT
+"

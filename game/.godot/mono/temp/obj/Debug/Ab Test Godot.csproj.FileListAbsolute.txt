@@ -1,0 +1,20 @@
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/Ab Test Godot.deps.json
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/Ab Test Godot.runtimeconfig.json
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/Ab Test Godot.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/Ab Test Godot.pdb
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/ConfigCat.Client.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/Newtonsoft.Json.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/bin/Debug/System.Text.Json.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.csproj.AssemblyReference.cache
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.GeneratedMSBuildEditorConfig.editorconfig
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.AssemblyInfoInputs.cache
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.AssemblyInfo.cs
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.csproj.CoreCompileInputs.cache
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.csproj.CopyComplete
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/refint/Ab Test Godot.dll
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.pdb
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/Ab Test Godot.genruntimeconfig.cache
+/home/emil/Desktop/godot-game-github/ab-testing-in-godot-sample-app/game/.godot/mono/temp/obj/Debug/ref/Ab Test Godot.dll
