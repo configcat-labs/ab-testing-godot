@@ -15,7 +15,9 @@ Once the collection is successfully performed, the event is logged to Amplitude.
 
 To run the project, ensure you have the following:
 
-- [Godot v4.0.3](https://downloads.tuxfamily.org/godotengine/4.0.3/) engine with .NET support.
+- your GPU drivers are up to date.
+- [.NET6 or higher](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- [Godot v4.0.3](https://downloads.tuxfamily.org/godotengine/4.0.3/) engine with .NET and Mono support.
 - [ConfigCat account](https://app.configcat.com/) for feature flag management.
 - [Amplitude account](https://analytics.amplitude.com/login) for analytics.
 
